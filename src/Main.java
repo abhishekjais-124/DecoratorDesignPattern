@@ -1,5 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        BasePizza pizza = new Mushroom(new VegDelight());
+        System.out.println(pizza.cost());
     }
 }
